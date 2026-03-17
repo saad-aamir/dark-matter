@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 
-export default function CountUp({ target }: { target: number }) {
+export default function CountUp({ target, suffix = "+" }: { target: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-50px" });
@@ -33,7 +33,7 @@ export default function CountUp({ target }: { target: number }) {
       ref={ref}
       className="font-serif text-[clamp(3rem,6vw,5rem)] leading-none gradient-text"
     >
-      {count}+
+      {count}{suffix}
     </div>
   );
 }

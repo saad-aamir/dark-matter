@@ -79,9 +79,9 @@ export default function WaveSection() {
   }, []);
 
   const stats = [
-    { target: 200, label: "Websites Launched" },
-    { target: 50, label: "Happy Clients" },
-    { target: 98, label: "% Client Retention" },
+    { target: 20, label: "Websites Launched", suffix: "+" },
+    { target: 15, label: "Happy Clients", suffix: "+" },
+    { target: 100, label: "Client Retention", suffix: "%" },
   ];
 
   return (
@@ -107,7 +107,7 @@ export default function WaveSection() {
         transition={{ delay: 0.1, duration: 0.8 }}
         className="font-serif text-[clamp(2.5rem,6vw,5rem)] leading-[1.1] mb-6 max-w-[700px]"
       >
-        We don&rsquo;t just build websites. We build growth engines.
+        We don&rsquo;t just build websites. We build <em className="italic gradient-text">growth engines.</em>
       </motion.h2>
 
       <motion.p
@@ -138,7 +138,7 @@ export default function WaveSection() {
             transition={{ delay: 0.1 * (i + 1), duration: 0.8 }}
             className="text-center"
           >
-            <CountUp target={stat.target} />
+            <CountUp target={stat.target} suffix={stat.suffix} />
             <div className="text-[0.8rem] tracking-[0.2em] uppercase text-text/40 mt-2">
               {stat.label}
             </div>

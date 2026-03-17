@@ -35,8 +35,8 @@ export default function FooterCTA() {
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ delay: 0.2, duration: 0.8 }}
       >
-        <MagneticButton href="mailto:hello@darkmatter.studio">
-          hello@darkmatter.studio
+        <MagneticButton href="mailto:saad@darkmatterstudio.org">
+          saad@darkmatterstudio.org
         </MagneticButton>
       </motion.div>
     </section>

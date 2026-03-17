@@ -1,6 +1,6 @@
 "use client";
 
-const items = ["Design", "Develop", "Launch", "Scale", "Convert"];
+const items = ["ATTRACT", "ENGAGE", "CONVERT", "GROW"];
 
 export default function Marquee() {
   const doubled = [...items, ...items];

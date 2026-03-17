@@ -27,7 +27,7 @@ export default function Hero() {
             custom={0}
             variants={lineVariants}
           >
-            Websites That
+            Websites That Turn
           </motion.span>
         </span>
         <span className="block overflow-hidden">
@@ -38,7 +38,7 @@ export default function Hero() {
             custom={1}
             variants={lineVariants}
           >
-            <em className="italic gradient-text">Convert</em>
+            <em className="italic gradient-text">Visitors Into Clients</em>
           </motion.span>
         </span>
       </h1>
@@ -49,7 +49,7 @@ export default function Hero() {
         transition={{ delay: 0.8, duration: 1 }}
         className="mt-8 text-[clamp(1rem,2vw,1.3rem)] font-light tracking-[0.1em] uppercase shimmer"
       >
-        Design &middot; Develop &middot; Launch
+        Attract &middot; Engage &middot; Convert
       </motion.p>
 
       <motion.div
@@ -59,7 +59,7 @@ export default function Hero() {
         className="mt-12 flex gap-6 flex-wrap justify-center"
       >
         <MagneticButton href="#work">See Our Work</MagneticButton>
-        <MagneticButton href="#contact">Start a Project</MagneticButton>
+        <MagneticButton href="#contact">Get a Free Homepage Concept</MagneticButton>
       </motion.div>
 
       <motion.div
