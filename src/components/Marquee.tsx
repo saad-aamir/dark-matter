@@ -14,10 +14,10 @@ export default function Marquee() {
         {doubled.map((item, i) => (
           <span
             key={i}
-            className="font-serif text-[clamp(3rem,8vw,7rem)] whitespace-nowrap px-8 text-text/[0.08] transition-colors duration-400 hover:text-accent italic"
+            className="font-serif text-[clamp(3rem,8vw,7rem)] whitespace-nowrap text-text/[0.08] transition-colors duration-400 hover:text-accent italic flex items-center"
           >
-            {item}{" "}
-            <span className="inline-block w-3 h-3 rounded-full bg-accent mx-8 align-middle" />
+            <span className="px-8">{item}</span>
+            <span className="inline-block w-3 h-3 rounded-full bg-accent shrink-0" />
           </span>
         ))}
       </div>
