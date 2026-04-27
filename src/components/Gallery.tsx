@@ -8,6 +8,7 @@ const projects = [
   { title: "Apex Fitness", tag: "Business Landing Page", image: "/apex-fitness.png", url: "https://apex-fitness-kohl.vercel.app" },
   { title: "Solara Finance", tag: "SaaS Marketing Page", image: "/solara-fitness.png", url: "https://solara-finance-nine.vercel.app" },
   { title: "Noma Studio", tag: "Photographer Portfolio", image: "/noma-studio.png", url: "https://noma-studio.vercel.app" },
+  { title: "Sussex Light Photography", tag: "Photographer Portfolio", image: "/sussex-light-photography.png", url: "https://www.sussexlightphotography.com" },
 ];
 
 export default function Gallery() {
