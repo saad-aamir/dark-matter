@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://darkmatterstudio.vercel.app";
+const BASE_URL = "https://www.darkmatterstudio.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

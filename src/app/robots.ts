@@ -18,7 +18,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Googlebot", allow: "/" },
       { userAgent: "Googlebot-Image", allow: "/" },
     ],
-    sitemap: "https://darkmatterstudio.vercel.app/sitemap.xml",
-    host: "https://darkmatterstudio.vercel.app",
+    sitemap: "https://www.darkmatterstudio.org/sitemap.xml",
+    host: "https://www.darkmatterstudio.org",
   };
 }

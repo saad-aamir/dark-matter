@@ -121,7 +121,7 @@ export default function OgImage() {
             fontFamily: "sans-serif",
           }}
         >
-          darkmatterstudio.vercel.app
+          www.darkmatterstudio.org
         </div>
       </div>
     ),
