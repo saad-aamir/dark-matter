@@ -5,6 +5,8 @@ import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 
 const projects = [
+  { title: "FMY Accountants", tag: "Accountancy Firm Website", image: "/fmy-accountants.png", url: "https://www.fmyaccountants.co.uk" },
+  { title: "The Crib Murree", tag: "Boutique Stay Landing Page", image: "/the-crib-murree.png", url: "https://www.thecribmurree.com" },
   { title: "Apex Fitness", tag: "Business Landing Page", image: "/apex-fitness.png", url: "https://apex-fitness-kohl.vercel.app" },
   { title: "Solara Finance", tag: "SaaS Marketing Page", image: "/solara-fitness.png", url: "https://solara-finance-nine.vercel.app" },
   { title: "Noma Studio", tag: "Photographer Portfolio", image: "/noma-studio.png", url: "https://noma-studio.vercel.app" },
